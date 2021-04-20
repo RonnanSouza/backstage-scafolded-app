@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Ronan Test
+  description: Just a test
+  annotations: 
+    github.com/project-slug: RonnanSouza/backstage-scafolded-app
+    backstage.io/source-ref: "https://github.com/RonnanSouza/backstage-scafolded-app"
+    backstage.io/techdocs-ref: url:https://github.com/RonnanSouza/backstage-scafolded-app
+    backstage.io/github-actions-id: https://github.com/RonnanSouza/backstage-scafolded-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: RonnanSouza
